@@ -31,6 +31,7 @@ public class Ex01배열생성과선언 {
 		   System.out.println(arr[3]);
 		   System.out.println(arr[4]);
 		   
+		   System.out.println("test");
 		   System.out.println(arr.length);
 		   //반복문 사용 
 		   for(int i=0; i<5; i++) {
