@@ -50,13 +50,16 @@ public class Ex01배열생성과선언 {
 		   
 		   int[] intArray = new int[5];
 		   int[] myArray = intArray;
+		
+		 
 		   
 		   intArray[1] = 2;
 		   System.out.println(intArray[1]);
 	     
 		   myArray[1] = 6;
 		   System.out.println(intArray[1]);
-	
+		
+		   intArray[3]= 3;
 	}
 
 }
