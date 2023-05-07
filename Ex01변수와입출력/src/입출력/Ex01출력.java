@@ -42,6 +42,7 @@ public class Ex01출력 {
 		System.out.print(s2);
 		
 		System.out.print(s1 + s2 + 1); //문자열은 연산(+) 
+		System.out.print( 1 + s1 + s2);
 	}
 
 }
