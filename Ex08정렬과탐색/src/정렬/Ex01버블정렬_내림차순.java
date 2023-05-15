@@ -11,7 +11,7 @@ public class Ex01버블정렬_내림차순 {
 		System.out.println("정렬 전 : " + Arrays.toString(arr));
 
 		int temp; // 치환을 위한 임시공간
-		boolean sw = false; // n회차 정렬이 한번이라도 일어나면 true
+		boolean sw = false; // n회차 정렬이 한번이라도 일어나면 true !!
 
 		// 한 번의 반복이 완료될때 마다 가장 큰 수는 배열의 가장 마지막 부분으로 밀리는것이 보장 
 		for (int j = 0; j < arr.length - 1; j++) {
