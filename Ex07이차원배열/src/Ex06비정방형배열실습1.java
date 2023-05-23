@@ -35,10 +35,13 @@ public class Ex06비정방형배열실습1 {
 				System.out.print(arr[i][j] + " ");
 
 				sum += arr[i][j]; // 총점 변수에 누적
+				
 
 			}
 			System.out.println();
+			System.out.println();
 			System.out.print(" 총점 : " + sum + "  평균 : " + sum / (double) arr[i].length);
+			
 		}
 
 	}

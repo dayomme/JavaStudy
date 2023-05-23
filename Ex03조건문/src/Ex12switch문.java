@@ -10,7 +10,7 @@ public class Ex12switch문 {
 		int money = sc.nextInt();
 
 		System.out.print("--메뉴--\n1. 콜라(1800원) 2.파워에이드(2000원) 3.탄산수(1200원) >>");
-
+                System.out.print("ㄱㅗㄹㄹㅏㅈㅜㅅㅔㅇㅛ");
 		int menu = sc.nextInt();
 
 		switch (menu) {
